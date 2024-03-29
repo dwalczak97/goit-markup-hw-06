@@ -24,12 +24,7 @@ p {
   margin: 0;
   padding: 0;
 }
-@media (min-width: 320px) {
-}
-@media (min-width: 758px) {
-}
-@media (min-width: 1158px) {
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -49,6 +44,22 @@ p {
 .list-navigation {
   padding: 20px 0;
   gap: 40px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-right: 16px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hamburger .line {
+  width: 18px;
+  height: 4px;
+  background-color: black;
+}
+.is-open {
+  display: none;
 }
 .navigation {
   color: #2e2f42;
@@ -768,6 +779,11 @@ footer {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .border-chechbox {
   border: none;
   margin-bottom: 24px;
@@ -809,4 +825,77 @@ footer {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+} /*
+@media (max-width: 321px) {
+  .window {
+    border-radius: 4px;
+    max-width: 288px;
+    height: 623px;
+  }
+  .on-off {
+    max-width: 320px;
+    max-height: 640px;
+  }
+}*/
+@media (min-width: 320px) and (max-width: 757px) {
+  .menu-desktop {
+    display: none;
+  }
+  .logo {
+    padding: 16px 16px;
+    margin-right: 133px;
+  }
+  .window {
+    border-radius: 4px;
+    max-width: 288px;
+    height: 623px;
+  }
+  .on-off {
+    max-width: 320px;
+    max-height: 640px;
+  }
+}
+@media (min-width: 758px) {
+  .hamburger {
+    display: none;
+  }
+  .menu-desktop {
+    display: block;
+  }
+  .menu.mobile {
+    display: none;
+  }
+  .features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .list-features {
+    width: 356px;
+  }
+  .team-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media (min-width: 1158px) {
+  .hamburger {
+    display: none;
+  }
+  .menu-desktop {
+    display: block;
+  }
+  .menu.mobile {
+    display: none;
+  }
+  .features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .team-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }

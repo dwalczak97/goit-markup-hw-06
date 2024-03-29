@@ -29,42 +29,89 @@
   </head>
 
   <body>
-    <!--  <header class="page-header">
-      <div class="page container">
-        <nav class="menu">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo2">Studio</span></a
-          >
-          <ul class="menu-list">
-            <li class="list-navigation">
-              <a href="./index.html" class="navigation">Studio</a>
-            </li>
-            <li class="list-navigation">
-              <a href="" class="navigation">Portfolio</a>
-            </li>
-            <li class="list-navigation">
-              <a href="" class="navigation">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+    <header class="page-header">
+      <!-- menu dla destop + tablet-->
+      <div class="menu-desktop">
+        <div class="page container">
+          <nav class="menu">
+            <a class="logo" href="./index.html"
+              >Web<span class="logo2">Studio</span></a
+            >
 
-        <address class="contacts">
-          <ul class="contacts-list">
-            <li class="contact-list-item">
-              <a class="contacts-one" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-list-item">
-              <a class="contacts-one" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+            <ul class="menu-list">
+              <li class="list-navigation">
+                <a href="./index.html" class="navigation">Studio</a>
+              </li>
+              <li class="list-navigation">
+                <a href="" class="navigation">Portfolio</a>
+              </li>
+              <li class="list-navigation">
+                <a href="" class="navigation">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="contacts">
+            <ul class="contacts-list">
+              <li class="contact-list-item">
+                <a class="contacts-one" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact-list-item">
+                <a class="contacts-one" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+
+      <!--menu dla mobile-->
+      <div class="menu mobile">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo2">Studio</span></a
+        >
+        <!--hamburger dla menu mobile-->
+        <div class="hamburger" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="is-open">
+          <nav>
+            <ul class="menu-list-mobile">
+              <li class="list-navigation-mobile">
+                <a href="./index.html" class="navigation">Studio</a>
+              </li>
+              <li class="list-navigation-mobile">
+                <a href="" class="navigation">Portfolio</a>
+              </li>
+              <li class="list-navigation-mobile">
+                <a href="" class="navigation">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="contacts-mobile">
+            <ul class="contacts-list">
+              <li class="contact-list-item">
+                <a class="contacts-one" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact-list-item">
+                <a class="contacts-one" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
--->
+
     <main>
       <section class="section-one">
         <div class="container container-one-heading">
@@ -614,8 +661,9 @@
               <a class="privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
-
-          <button type="submit" class="btn-window">Send</button>
+          <div class="btn-space">
+            <button type="submit" class="btn-window">Send</button>
+          </div>
         </form>
       </div>
     </div>
