@@ -101,7 +101,7 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  margin-left: 332px;
+  /* margin-left: 332px;*/
 }
 .contacts-list {
   list-style: none;
@@ -237,7 +237,7 @@ p {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  max-width: 320px;
+  /* max-width: 320px;*/
 }
 
 .list-team-heading {
@@ -328,7 +328,7 @@ footer {
 .features {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+
   min-width: 288px;
   margin: 0 0;
   padding-left: 0;
@@ -856,6 +856,16 @@ footer {
   }
 }
 @media (min-width: 758px) {
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-tab/Dark-bg\(2\).jpg);
+
+    min-width: 758px;
+  }
+
   .hamburger {
     display: none;
   }
@@ -866,19 +876,27 @@ footer {
     display: none;
   }
   .features {
-    display: flex;
     flex-direction: row;
+    gap: 24px;
     flex-wrap: wrap;
   }
   .list-features {
-    width: 356px;
+    max-width: 356px;
   }
   .team-container {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
+  }
+  .container {
+    padding: 0 0;
+  }
+  .portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
+
 @media (min-width: 1158px) {
   .hamburger {
     display: none;
