@@ -858,6 +858,77 @@ footer {
   .icon {
     display: none;
   }
+  .is-open {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+  /* menu is open*/
+  .close-menu {
+    background-color: #fff;
+  }
+  .btn-x-menu {
+    background-color: #fff;
+  }
+  .modal-menu {
+    background-color: #fff;
+    width: 320px;
+    height: 640px;
+    position: absolute;
+  }
+  .menu-list-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 72px 0;
+    padding: 0 16px;
+  }
+  .list-navigation-mobile {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+  }
+  .navigation-mobile {
+    color: #2e2f42;
+  }
+  .navigation-mobile:hover {
+    color: #4d5ae5;
+  }
+  .navigation-mobile:focus {
+    color: #4d5ae5;
+  }
+  .contacts-one-mobile {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+    list-style: none;
+    font-style: normal;
+    padding-left: 16px;
+  }
+  .contacts-one-mobile:hover {
+    color: #4d5ae5;
+  }
+  .contacts-one-mobile:focus {
+    color: #4d5ae5;
+  }
+  .contacts-mobile {
+    margin-top: 168px;
+    margin-bottom: 48px;
+  }
+  .social-media-list-footer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
 }
 @media (min-width: 758px) {
   .section-one {
