@@ -143,6 +143,15 @@ p {
   padding-top: 72px;
   padding-bottom: 72px;
 }
+@media (min-resolution: 192dpi) {
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background-image/Dark-bg\(3\).jpg);
+  }
+}
 .container-one-heading {
   display: flex;
   justify-content: center;
@@ -955,6 +964,17 @@ footer {
   }
   .div-btn-footer {
     margin: 0 0;
+  }
+}
+@media (min-resolution: 192dpi) {
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-tab/Dark-bg\(3\).jpg);
+
+    min-width: 758px;
   }
 }
 
