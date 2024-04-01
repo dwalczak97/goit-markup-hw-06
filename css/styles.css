@@ -846,6 +846,12 @@ footer {
     padding: 16px 16px;
     margin-right: 133px;
   }
+  .section-team {
+    padding: 96px 0;
+  }
+  .section-features {
+    padding: 96px 0;
+  }
   .window {
     border-radius: 4px;
     max-width: 288px;
@@ -866,6 +872,9 @@ footer {
     height: 100%;
     width: 100%;
     background-color: #fff;
+  }
+  .social-media-list-footer {
+    gap: 16px;
   }
   /* menu is open*/
   .close-menu {
@@ -924,10 +933,18 @@ footer {
     margin-top: 168px;
     margin-bottom: 48px;
   }
-  .social-media-list-footer {
+  .social-media-list-footer-mobile {
     display: flex;
     gap: 40px;
     justify-content: center;
+  }
+  .footer-left {
+    min-width: 288px;
+  }
+  .div-media-footer {
+  }
+  .social-media-list-footer {
+    min-width: 208px;
   }
 }
 @media (min-width: 758px) {
